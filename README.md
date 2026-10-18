@@ -1,7 +1,5 @@
 <div align="center">
 
-<img width="100%" alt="Agentic AI Learning" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:070c20,55:1e3a8a,100:7c3aed&text=Agentic%20AI%20Learning&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=From%20your%20first%20agent%20to%20RAG%2C%20memory%2C%20guardrails%20%26%20observability&descAlignY=60&descSize=18&animation=fadeIn">
-
 <img alt="Typing animation" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=760&height=40&lines=Agentic+AI+%7C+LangGraph+%7C+Tool-using+agents;RAG+%26+Advanced+Retrieval+%28BM25%2C+SPLADE%2C+ColBERT%2C+Self-RAG%29;Multi-Agent+Systems+%26+Memory;Guardrails%2C+Evaluation+%26+Observability">
 
 # Agentic AI Learning
@@ -31,16 +29,18 @@ Most Agentic AI material stops at a diagram. Here, **every concept is a runnable
 
 ## Learning path
 
-```mermaid
-flowchart LR
-    A["Agents & Tools<br/>01-02"] --> B["RAG<br/>03-04"]
-    B --> C["Agent designs<br/>05-07"]
-    C --> D["LLM apps<br/>08-09"]
-    D --> E["Advanced retrieval<br/>10-12"]
-    E --> F["Reliability<br/>13-14"]
-    F --> G["Systems<br/>15-16"]
-    G --> H["Observability<br/>17"]
-```
+Work through the notebooks in order, or jump to the stage you need:
+
+| Stage | Notebooks | Focus |
+|---|---|---|
+| 1. Agents & tools | 01-02 | Tool-calling agents, LangGraph basics, memory with threads |
+| 2. RAG | 03-04 | Embeddings, chunking, vector DB, RAG on a document |
+| 3. Agent designs | 05-07 | Multi-agent, human-in-the-loop, ReAct, Plan-and-Execute |
+| 4. LLM apps | 08-09 | Streamlit apps with a real LLM |
+| 5. Advanced retrieval | 10-12 | Chunking strategies, BM25 / hybrid / SPLADE / ColBERT, Self-RAG |
+| 6. Reliability | 13-14 | RAG evaluation and guardrails |
+| 7. Systems | 15-16 | Supervisor / Swarm / Hierarchical agents, memory systems |
+| 8. Observability | 17 | Tracing and evals with Langfuse, LangSmith, Phoenix |
 
 ## What's inside
 
